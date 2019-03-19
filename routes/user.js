@@ -25,7 +25,7 @@ router1.post('/user_create', (req, res) =>
     console.log("Trying to create a new user")
     console.log("How do we get the form data??")
 
-    // Frtching the data from html form
+    // Fetching the data from html form
     console.log("First Name: " + req.body.create_first_name)
     const firstName = req.body.create_first_name
     const lastName = req.body.create_last_name
