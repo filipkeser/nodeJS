@@ -20,7 +20,7 @@ const pool = mysql.createPool({
     host: "localhost",
     user: "root",
     database: "MySQL",
-    password: "AnaFilip1708"
+    password: "***********"
 })
 
 // returns a connection pool (see above)
